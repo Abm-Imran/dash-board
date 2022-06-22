@@ -79,6 +79,7 @@ main {
 
 .blog-title {
     font-size: 20px;
+    margin-top: 0;
 }
 
 .blog-author {
@@ -91,3 +92,33 @@ main {
     font-size: 16px;
     color: #562EFF;
 }
+
+
+/* -----Courses Style------------------- */
+
+.courses {
+    display: flex;
+}
+
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-author {
+    color: red;
+}
+
+.course-extra {
+    display: flex;
+}
+
+.filled {
+    color: #FFC014;
+}
+
+.empty {
+    color: #AEAEAE;
+}
+
+.fa-clock {}
