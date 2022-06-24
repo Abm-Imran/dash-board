@@ -24,7 +24,7 @@ main {
 }
 
 .section-title {
-    color: #562EFF;
+    color: #5356A5;
     font-size: 24px;
     margin-top: 1px;
 }
@@ -83,7 +83,7 @@ main {
 }
 
 .blog-author {
-    color: #9F9F9F;
+    color: #5356A5;
     font-size: 16px;
 }
 
@@ -98,6 +98,14 @@ main {
 
 .courses {
     display: flex;
+    justify-content: center;
+}
+
+.course {
+    box-shadow: 1px 1px 7px grey;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+    margin: 12px;
 }
 
 .course .course-banner img {
@@ -106,11 +114,15 @@ main {
 }
 
 .course-author {
-    color: red;
+    color: #ED6A4F;
 }
 
 .course-extra {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+
 }
 
 .filled {
@@ -121,4 +133,11 @@ main {
     color: #AEAEAE;
 }
 
-.fa-clock {}
+.course-duration {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #FAE3DF;
+    color: #ED6A4F;
+}
